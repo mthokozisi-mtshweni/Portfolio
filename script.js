@@ -650,6 +650,78 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+        // ========== DOCUMENT DOWNLOAD LINKS ==========
+    // Replace these URLs with your actual Google Drive or hosting links
+    const documentLinks = {
+        cv: "https://drive.google.com/your-cv-link",           // Replace with your CV PDF
+        id: "https://drive.google.com/your-id-link",           // Replace with your ID copy
+        transcript: "https://drive.google.com/your-transcript-link", // Replace with academic transcript
+        matric: "https://drive.google.com/your-matric-link",    // Replace with matric certificate
+        wil: "https://drive.google.com/your-wil-link"           // Replace with WIL letter
+    };
+    
+    // Set up click handlers for each document link
+    const cvLink = document.getElementById('cvLink');
+    const idLink = document.getElementById('idLink');
+    const transcriptLink = document.getElementById('transcriptLink');
+    const matricLink = document.getElementById('matricLink');
+    const wilLink = document.getElementById('wilLink');
+    
+    if (cvLink) {
+        cvLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (documentLinks.cv && documentLinks.cv !== "#") {
+                window.open(documentLinks.cv, '_blank');
+            } else {
+                alert("CV document will be uploaded soon. Please email me directly.");
+            }
+        });
+    }
+    
+    if (idLink) {
+        idLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (documentLinks.id && documentLinks.id !== "#") {
+                window.open(documentLinks.id, '_blank');
+            } else {
+                alert("ID document will be uploaded soon. Please email me directly.");
+            }
+        });
+    }
+    
+    if (transcriptLink) {
+        transcriptLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (documentLinks.transcript && documentLinks.transcript !== "#") {
+                window.open(documentLinks.transcript, '_blank');
+            } else {
+                alert("Academic transcript will be uploaded soon. Please email me directly.");
+            }
+        });
+    }
+    
+    if (matricLink) {
+        matricLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (documentLinks.matric && documentLinks.matric !== "#") {
+                window.open(documentLinks.matric, '_blank');
+            } else {
+                alert("Matric certificate will be uploaded soon. Please email me directly.");
+            }
+        });
+    }
+    
+    if (wilLink) {
+        wilLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (documentLinks.wil && documentLinks.wil !== "#") {
+                window.open(documentLinks.wil, '_blank');
+            } else {
+                alert("WIL letter will be uploaded soon. Please email me directly.");
+            }
+        });
+    }
+
     // ========== FOOTER FUNCTIONALITY ==========
     // Smooth scrolling for footer links
     document.querySelectorAll('.footer ul li a').forEach(link => {
