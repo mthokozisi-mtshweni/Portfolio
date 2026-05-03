@@ -663,7 +663,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // ========== DOCUMENT DOWNLOAD LINKS ==========
     const documentLinks = {
         cv: "https://drive.google.com/uc?export=download&id=1GJ7NrE9U058hnXtUv_xgToN00cA71hTk",
-        id: "https://drive.google.com/uc?export=download&id=1JzA2dA14kJ5OGdV4JGMDU6_lGtfihzlT",
+        id: "https://drive.google.com/file/d/1ZbfFi46a0adsZ70ptCwaICxDY3nCauH1/preview",
         transcript: "https://drive.google.com/uc?export=download&id=1YmZAA8NiiXgBopRYxCuVRboQITVbEsw3",
         matric: "https://drive.google.com/uc?export=download&id=1ZbfFi46a0adsZ70ptCwaICxDY3nCauH1",
         wil: "https://drive.google.com/uc?export=download&id=1sSfAyBoSvN8HesvjaoggcNozGP06E6L4"
