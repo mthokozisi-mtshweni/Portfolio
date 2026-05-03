@@ -652,12 +652,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // ========== DOCUMENT DOWNLOAD LINKS ==========
     // Replace these URLs with your actual Google Drive or hosting links
-    const documentLinks = {
-        cv: "https://drive.google.com/your-cv-link",           // Replace with your CV PDF
-        id: "https://drive.google.com/your-id-link",           // Replace with your ID copy
-        transcript: "https://drive.google.com/your-transcript-link", // Replace with academic transcript
-        matric: "https://drive.google.com/your-matric-link",    // Replace with matric certificate
-        wil: "https://drive.google.com/your-wil-link"           // Replace with WIL letter
+    // const documentLinks = {
+    //     cv: "https://drive.google.com/your-cv-link",           // Replace with your CV PDF
+    //     id: "https://drive.google.com/your-id-link",           // Replace with your ID copy
+    //     transcript: "https://drive.google.com/your-transcript-link", // Replace with academic transcript
+    //     matric: "https://drive.google.com/your-matric-link",    // Replace with matric certificate
+    //     wil: "https://drive.google.com/your-wil-link"           // Replace with WIL letter
+    // };
+
+        const documentLinks = {
+        cv: "https://drive.google.com/uc?export=download&id=Mthokozisi_Mtshweni_CV",
+        id: "https://drive.google.com/uc?export=download&id=YOUR_ID_FILE_ID",
+        transcript: "https://drive.google.com/uc?export=download&id=YOUR_ACADEMIC_FILE_ID",
+        matric: "https://drive.google.com/uc?export=download&id=YOUR_MATRIC_FILE_ID",
+        wil: "https://drive.google.com/uc?export=download&id=YOUR_WIL_FILE_ID"
     };
     
     // Set up click handlers for each document link
