@@ -660,12 +660,13 @@ document.addEventListener('DOMContentLoaded', function() {
     //     wil: "https://drive.google.com/your-wil-link"           // Replace with WIL letter
     // };
 
-        const documentLinks = {
-        cv: "https://drive.google.com/uc?export=download&id=Mthokozisi_Mtshweni_CV",
-        id: "https://drive.google.com/uc?export=download&id=YOUR_ID_FILE_ID",
-        transcript: "https://drive.google.com/uc?export=download&id=YOUR_ACADEMIC_FILE_ID",
-        matric: "https://drive.google.com/uc?export=download&id=YOUR_MATRIC_FILE_ID",
-        wil: "https://drive.google.com/uc?export=download&id=YOUR_WIL_FILE_ID"
+            // ========== DOCUMENT DOWNLOAD LINKS ==========
+    const documentLinks = {
+        cv: "https://drive.google.com/uc?export=download&id=1GJ7NrE9U058hnXtUv_xgToN00cA71hTk",
+        id: "https://drive.google.com/uc?export=download&id=1JzA2dA14kJ5OGdV4JGMDU6_lGtfihzlT",
+        transcript: "https://drive.google.com/uc?export=download&id=1YmZAA8NiiXgBopRYxCuVRboQITVbEsw3",
+        matric: "https://drive.google.com/uc?export=download&id=1ZbfFi46a0adsZ70ptCwaICxDY3nCauH1",
+        wil: "https://drive.google.com/uc?export=download&id=1sSfAyBoSvN8HesvjaoggcNozGP06E6L4"
     };
     
     // Set up click handlers for each document link
