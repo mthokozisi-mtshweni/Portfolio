@@ -1116,3 +1116,7 @@
         }
     }
 
+.modal-content ul li a:hover {
+    text-decoration: underline !important;
+    opacity: 0.8;
+}
