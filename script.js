@@ -662,11 +662,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // ========== DOCUMENT DOWNLOAD LINKS ==========
     const documentLinks = {
-        cv: "https://drive.google.com/uc?export=download&id=1GJ7NrE9U058hnXtUv_xgToN00cA71hTk",
+        cv: "https://drive.google.com/file/d/1YmZAA8NiiXgBopRYxCuVRboQITVbEsw3/view?usp=drive_link",
         id: "https://drive.google.com/file/d/1ZbfFi46a0adsZ70ptCwaICxDY3nCauH1/view?usp=drive_link",
-        transcript: "https://drive.google.com/uc?export=download&id=1YmZAA8NiiXgBopRYxCuVRboQITVbEsw3",
-        matric: "https://drive.google.com/uc?export=download&id=1ZbfFi46a0adsZ70ptCwaICxDY3nCauH1",
-        wil: "https://drive.google.com/uc?export=download&id=1sSfAyBoSvN8HesvjaoggcNozGP06E6L4"
+        transcript: "https://drive.google.com/file/d/1sSfAyBoSvN8HesvjaoggcNozGP06E6L4/view?usp=drive_link",
+        matric: "https://drive.google.com/file/d/1JzA2dA14kJ5OGdV4JGMDU6_lGtfihzlT/view?usp=drive_link",
+        wil: "https://drive.google.com/file/d/1GJ7NrE9U058hnXtUv_xgToN00cA71hTk/view?usp=drive_link"
     };
     
     // Set up click handlers for each document link
